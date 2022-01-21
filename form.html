@@ -1,0 +1,276 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title> Campus Ambassador Form </title> 
+<style>  
+body{  
+  font-family: Calibri, sans-serif;  
+  background-color: rgb(5, 65, 83);  
+}  
+h1{
+    background-color: rgb(82, 146, 165);
+    font-size: 40px;
+    padding: 10px;
+}
+h2{
+  background-color: cadetblue;
+  font-size: 30px;
+  word-spacing: 2px;
+}
+.container {  
+    padding: 20px;  
+  background-color: rgb(156, 138, 163);  
+}
+.inf{
+  word-spacing: 20px;
+  padding: 20px;
+}
+.in{
+  word-spacing: 20px;
+  padding: 20px;
+}
+  
+input[type=text]{  
+  width: 20%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  word-spacing: inherit;
+  background: #f1f1f1;  
+}  
+input[type=text]:focus {  
+  background-color: rgb(179, 149, 95);  
+  outline: rgb(83, 68, 68);  
+}  
+ div {  
+            padding: 12px;
+         }  
+hr {  
+  border: 1px solid #d3cfcf;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #bf13d6;  
+  color: white;  
+  padding: 8px 10px;  
+  margin: 20px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 10%;  
+  opacity: 0.9;  
+}
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+footer{
+    background: #111111;
+    font-size: 16px;
+    word-spacing: 6px;
+    text-align: center;
+    height: auto;
+    width: 25%;
+    padding-left: 450px;
+    padding-right: 450px;
+    margin: auto;
+    color: rgb(168, 7, 7);
+}
+.x{
+    padding: 10px;
+    width: 10%;
+}
+textarea{
+    width: 50%;
+    vertical-align: top;
+}
+</style>  
+</head>  
+<body>  
+<form>  
+  <div class="container">
+      <center><img src="https://content.jdmagicbox.com/comp/durgapur/l1/9999px343.x343.191017004753.t1l1/catalogue/entrepreneurship-development-cell-nit-durgapur-edc-nitd-durgapur-ynyytdhbsw-250.jpg" height ="200px" width = "200px"></img></center>  
+  <center>  <h1> Student Registeration Form (For Campus Ambassador)</h1> </center>  
+  
+  <hr>  
+  <h2>BASIC INFORMATION</h2>
+  <hr>
+  <div>
+  <label> FIRST NAME : </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+<label> MIDDLE NAME : </label>   
+<input type="text" name="middlename" placeholder="Middlename" size="15" required />   
+<label> LAST NAME : </label>    
+<input type="text" name="lastname" placeholder="Lastname" size="15"required />  
+
+<div class="inf">
+<label>College :</label>
+<input type="text" name="college" placeholder="Name_of_College" size="15" required />
+    
+<label>   
+Course :  
+</label>   
+  
+<select>  
+<option value="B.Tech">B.Tech</option>  
+<option value="M.Tech">M.Tech</option>  
+<option value="B.Sc">B.Sc</option>  
+<option value="BCA">BCA</option>  
+<option value="MCA">MCA</option>  
+</select>  
+
+    <label>Year :</label>
+
+<select>
+<option value ="1st Year">1st Year</option>
+<option value ="2nd Year">2nd Year</option>
+<option value ="3rd Year">3rd Year</option>
+<option value ="4th Year">4th Year</option>
+</select>
+</div>
+<div class ="in">  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div>  
+<label>   
+Phone :  
+</label>  
+<select name="countryCode" id="" class = "x">
+	<option data-countryCode="IN" value="91" Selected>IN (+91)</option>
+</select>
+<input type="text" name="phone" placeholder="Phone no." size="10"/ required>
+<Label>E-Mail Address : </Label>
+<input type="text" name="email" placeholder="Email Id" size="10"/ required>
+<div>   
+ Address :  
+ <input type="text" name="Locality" placeholder="Locality" size="13" required />  
+ <input type="text" name="Street" placeholder="Street" size="13" required /> 
+ <input type="text" name="City" placeholder="City" size="13" required /> 
+<label>State/UT :</label>
+<select name="state" id="state" class="form-control">
+    <option value="Andhra Pradesh">Andhra Pradesh</option>
+    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+    <option value="Assam">Assam</option>
+    <option value="Bihar">Bihar</option>
+    <option value="Chandigarh">Chandigarh</option>
+    <option value="Chhattisgarh">Chhattisgarh</option>
+    <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+    <option value="Daman and Diu">Daman and Diu</option>
+    <option value="Delhi">Delhi</option>
+    <option value="Lakshadweep">Lakshadweep</option>
+    <option value="Puducherry">Puducherry</option>
+    <option value="Goa">Goa</option>
+    <option value="Gujarat">Gujarat</option>
+    <option value="Haryana">Haryana</option>
+    <option value="Himachal Pradesh">Himachal Pradesh</option>
+    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+    <option value="Jharkhand">Jharkhand</option>
+    <option value="Karnataka">Karnataka</option>
+    <option value="Kerala">Kerala</option>
+    <option value="Madhya Pradesh">Madhya Pradesh</option>
+    <option value="Maharashtra">Maharashtra</option>
+    <option value="Manipur">Manipur</option>
+    <option value="Meghalaya">Meghalaya</option>
+    <option value="Mizoram">Mizoram</option>
+    <option value="Nagaland">Nagaland</option>
+    <option value="Odisha">Odisha</option>
+    <option value="Punjab">Punjab</option>
+    <option value="Rajasthan">Rajasthan</option>
+    <option value="Sikkim">Sikkim</option>
+    <option value="Tamil Nadu">Tamil Nadu</option>
+    <option value="Telangana">Telangana</option>
+    <option value="Tripura">Tripura</option>
+    <option value="Uttar Pradesh">Uttar Pradesh</option>
+    <option value="Uttarakhand">Uttarakhand</option>
+    <option value="West Bengal">West Bengal</option>
+    </select>
+</div>
+
+<hr>
+    <Label>Tell us Something About Yourself : </Label>
+    <textarea id = "Information" name = "Information" rows = "20" cols = "500">Write about Yourself..</textarea>
+<hr>
+
+<h2>RATE YOURSELF OUT OF 5 IN : </h2>
+<hr>
+    <label>Leadership</label>
+    <select>
+     <option value="1">1</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5</option>
+    </select>
+    <label>Patience</label>
+    <select>
+     <option value="1">1</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5</option>
+    </select>
+    <label>Dedication</label>
+    <select>
+     <option value="1">1</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5</option>
+    </select>
+    <label>Communication Skills</label>
+    <select>
+     <option value="1">1</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5</option>
+    </select>
+    <label>Public Speaking</label>
+    <select>
+     <option value="1">1</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5</option>
+    </select>
+    <label>Experience</label>
+    <select>
+     <option value="1">1</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5</option>
+    </select>
+    <label>Committment</label>
+    <select>
+     <option value="1">1</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5</option>
+    </select>
+    <label>Realibilty</label>
+    <select>
+     <option value="1">1</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5</option>
+    </select>
+    <center><button type="submit" class="registerbtn">Register</button> </center> 
+</form>  
+<footer>
+    <a href="#">FAQ</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">About Us</a>
+    <a href="file:///D:/Microsoft%20VS%20Code/proj/site.html">Go Back</a>
+</footer>
+</body>  
+</html>  

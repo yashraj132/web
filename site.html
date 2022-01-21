@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+  background-color: #192423;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+*, a {
+  color: #f8f1b4;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+}
+.header{
+  font-size: 25px;
+  padding: 15px;
+  text-align: center;
+  text-overflow: inherit;
+  text-shadow: rgb(143, 137, 80);
+  font-family: cursive;
+  border-style: inherit;
+  border-radius: 5px;
+  border-color: rgb(163, 140, 140);
+  font-style: oblique;
+  background-color: rgb(27, 45, 46);
+}
+.fullwidth a::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  right: 0px;
+  bottom: -3px;
+  left: 0px;
+  background-color: #fad429;
+}
+a:hover {
+  color: #c21700;
+}
+a:hover::before {
+  background: linear-gradient(to right, #a80707 40%, #fabc35 75%);
+}
+
+nav {
+  margin-bottom: 3rem;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+@media (min-width: 600px) {
+  nav {
+    padding: 20px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+nav a {
+  font-size: 1rem;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+@media (min-width: 42em) {
+  nav a {
+    font-size: 1.4rem;
+  }
+}
+
+nav.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+@media (min-width: 600px) {
+  nav.flexbox {
+    justify-content: space-between;
+  }
+}
+nav.flexbox > a {
+  margin-bottom: 10px;
+}
+@media (min-width: 600px) {
+  nav.flexbox > a {
+    margin-bottom: 0px;
+  }
+}
+nav.flexbox .fullwidth {
+  flex: 0 0 100%;
+  justify-content: center;
+}
+@media (min-width: 600px) {
+  nav.flexbox .fullwidth {
+    flex: 0 1 auto;
+  }
+}
+nav.flexbox ul {
+  display: flex;
+  align-items: center;
+}
+nav.flexbox ul li {
+  flex: 0 0 100px;
+  margin-right: 0px;
+  text-align: center;
+}
+@media (min-width: 600px) {
+  nav.flexbox ul li {
+    flex: 0 0 auto;
+    margin: 1rem;
+  }
+}
+nav.flexbox ul li:last-child {
+  margin-right: 0px;
+}
+
+#logo-image {
+  padding: 0;
+  width: 10%;
+  height: 10%;
+  margin-left: 0rem;
+}
+
+@media (max-width: 500px) {
+  #logo-image {
+    float: none;
+    position: absolute;
+  }
+}
+
+.img{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border-spacing: 20px;
+}
+hr{
+    color: lavender;
+}
+.as{
+    text-align: center;
+    font-size: 30px;
+}
+.a{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.c{
+    text-align:center;
+    color:lightcoral;
+    padding: 20px;
+}
+.f{
+    background-color: rgba(22, 82, 72, 0.589) ;
+    word-spacing: 10px;
+    padding: 7px;
+}
+
+</style>
+        <title>
+            Enterpreneurship Development Cell (EDC), NIT Durgapur
+        </title>
+    </head>
+    <body>
+        <center>
+            <header>
+                <div class="header">
+                <h1>ENTERPRENEURSHIP DEVELOPMENT CELL (EDC)</h1>
+                <h2>National Institute of Technology, Durgapur</h2>
+            </div>
+            </header>
+        </center>
+        <nav class="flexbox">
+            <img id="logo-image" src="https://www.edcnitd.co.in/static/img/favicon.png">
+           
+        <ul class="fullwidth" >
+          <li><a href="#">HOME</a></li>
+                <li><a href="#">E-Quest</a></li>
+                <li><a href="#">E-Summit 22'</a></li>
+                <li><a href="file:///D:/Microsoft%20VS%20Code/proj/form.html">Registeration</a></li>
+                <li><a href="#">Our Team</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <marquee>
+    <div class = "img">
+    <img src = "https://www.steinbeisindia.com/images/stein/enterpre.jpg" width= "33%" height = "300px">
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDc-hEKNPCtXXFKHE4JFZCq3Pdfa0hsvIQoQ&usqp=CAU" width= "33%" height = "300px">
+    <img src = "https://content.jdmagicbox.com/comp/durgapur/l1/9999px343.x343.191017004753.t1l1/catalogue/entrepreneurship-development-cell-nit-durgapur-edc-nitd-durgapur-91rm33h4uh.jpg?clr=663f00" width= "33%" height = "300px">
+    </div>
+</marquee>
+
+    <div class = "as">
+        <hr>
+        <h2>About Us.</h2>
+    </hr>
+    </div>
+    <p class="a">
+            The Entrepreneurship Development Cell, NIT Durgapur is the institution’s official Entrepreneurship Promoting student body. Through a plethora of initiatives throughout the year, we remain steadfast to our sole dream of creating a sustainable and diverse entrepreneurial ecosystem where the young and the elderly come together to make entrepreneurship a common reality in India. In 2015, inspired by a desire to instil an entrepreneurial culture in NIT Durgapur, a group of three friends decided to start the first independent Entrepreneurship Cell of the College. What began as a small endeavour by three young minds has today risen to stand tall with over 70 members, achieving unimaginable things in just a span of few years. This journey would have never been possible without EDC’s incredible alumni who have worked ever so tirelessly to take the clubs to the height it has scaled. Today, EDC proudly figures among the most prolific entrepreneurship cells of the country, and we only hope to get bigger and better in the years to come!
+        </p>
+    <hr>
+    <div class = "c">
+        <h1>REGISTER !</h1>
+        <h2>For Campus Ambassador Programme of Enterpreneurship Development Cell (EDC), NIT Durgapur.</h2>
+    </div>
+    <center><a href = "file:///D:/Microsoft%20VS%20Code/proj/form.html">Click Here</a> </center>
+<footer>
+    <div class = "f">
+    <a href="https://www.facebook.com/edc.nitd">Facebook</a>
+    <a href="https://www.youtube.com/EntrepreneurshipDevelopmentCellNITDurgapur
+    ">Youtube</a>
+    <a href="https://www.instagram.com/edc.nitd/?fbclid=IwAR1N6etMcVD0njyyAnzucgeqt5RKjJ8z8l7Q7lHNXN1aw2jeAGbwu1b6o5c">Instagram</a>
+    <a href="https://www.linkedin.com/company/edcnitd/">LinkedIn</a>
+    </div>
+</footer>
+</body>
+</html>
